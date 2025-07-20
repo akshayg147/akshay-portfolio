@@ -9,7 +9,7 @@ export const AboutSection = () => (
     <CommandOutput>
       <div className="border-l-2 border-terminal-green pl-4 space-y-2">
         <h2 className="text-xl text-terminal-green font-bold"># {resumeData.personal.name}</h2>
-        <p className="text-terminal-cyan">Software Engineer</p>
+        <p className="text-terminal-cyan">Software Engineer and Full Stack Developer</p>
         <p className="text-muted-foreground">
           Passionate software engineer with expertise in cloud technologies, microservices architecture, 
           and full-stack development. Currently working at Sprinklr, building scalable cloud solutions 
