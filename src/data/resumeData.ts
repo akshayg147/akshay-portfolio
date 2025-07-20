@@ -22,7 +22,7 @@ export const resumeData = {
   },
   experience: [
     {
-      title: "Associate Cloud Engineer",
+      title: "Software Engineer - Cloud",
       company: "Sprinklr",
       duration: "Jul 2024 – Present",
       type: "Full-time",
@@ -35,7 +35,7 @@ export const resumeData = {
       ]
     },
     {
-      title: "Associate Cloud Engineer Intern",
+      title: "Software Engineer - Cloud Intern",
       company: "Sprinklr",
       duration: "Jan 2024 – Jun 2024",
       type: "Internship",
