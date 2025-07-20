@@ -39,11 +39,11 @@ const getResumeAnswer = (question: string): string => {
   
   // Experience questions
   if (lowerQuestion.includes("experience") || lowerQuestion.includes("work") || lowerQuestion.includes("job") || lowerQuestion.includes("sprinklr")) {
-    return `I'm currently working as an Associate Cloud Engineer at Sprinklr since July 2024. Previously, I was an intern there and also worked as a Software Developer Intern at Alemeno. My experience includes building microservices, CI/CD pipelines, and cloud infrastructure across AWS, Azure, and GCP.`;
+    return `I'm currently working as an Software Engineer - Cloud at Sprinklr since July 2024. Previously, I was an intern there and also worked as a Software Developer Intern at Alemeno. My experience includes building microservices, CI/CD pipelines, and cloud infrastructure across AWS, Azure, and GCP.`;
   }
   
   if (lowerQuestion.includes("current") || lowerQuestion.includes("now") || lowerQuestion.includes("present")) {
-    return `I'm currently working as an Associate Cloud Engineer at Sprinklr, where I build Node.js backends, develop Python SDKs for cross-cloud operations, and design microservices architectures handling 500+ RPM with <100ms latency.`;
+    return `I'm currently working as an Software Engineer - Cloud at Sprinklr, where I build Node.js backends, develop Python SDKs for cross-cloud operations, and design microservices architectures handling 500+ RPM with <100ms latency.`;
   }
   
   // Projects questions
@@ -58,7 +58,7 @@ const getResumeAnswer = (question: string): string => {
   
   // General questions
   if (lowerQuestion.includes("tell me about") || lowerQuestion.includes("who are you")) {
-    return `I'm ${resumeData.personal.name}, a passionate Cloud Engineer and Full-Stack Developer. I specialize in building scalable cloud solutions, microservices architecture, and have extensive experience with AWS, Azure, and GCP. Currently working at Sprinklr, I focus on creating efficient, high-performance systems that solve real-world problems.`;
+    return `I'm ${resumeData.personal.name}, a passionate Software Engineer. I specialize in building scalable cloud solutions, microservices architecture, and have extensive experience with AWS, Azure, and GCP. Currently working at Sprinklr, I focus on creating efficient, high-performance systems that solve real-world problems.`;
   }
   
   // Default response
