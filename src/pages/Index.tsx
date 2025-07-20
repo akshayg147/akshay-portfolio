@@ -64,7 +64,7 @@ const Index = () => {
                 showCursor={false}
               />
               <div className="mt-2 text-muted-foreground">
-                Software Engineer and Full Stack Developer
+                Software Engineer & Full Stack Developer
               </div>
             </div>
           </div>
