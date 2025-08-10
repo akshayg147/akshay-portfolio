@@ -27,11 +27,15 @@ export const resumeData = {
       duration: "Jul 2024 – Present",
       type: "Full-time",
       achievements: [
-        "Built a Node.js/Express.js backend to aggregate metrics from Kubernetes clusters across AWS, Azure, and GCP, using Apache Kafka for real-time event streaming.",
-        "Experienced in the creation of RESTful services following industry best practices using Node.js.",
+        "Built a calendar view for client planning tools, accelerating deadline tracking by 18% and improving team productivity.",
+        "Implemented Redis caching & query optimization, reducing API latency by 87% and significantly boosting user response times.",
+        "Leveraged multithreading in Java for concurrent task execution, improving system throughput by 76%.",
+        "Designed cross-cloud microservices for seamless data transfer between AWS S3 and Azure Blob, ensuring high availability.",
+        "Developed event-driven microservices in Python to publish and consume 500000+ Kafka events/day.",
+        "Designed a lightweight API gateway to route requests between 10+ microservices, handling 500+ RPM with <100ms latency.",
+        "Experienced in the creation of RESTful services following industry best practices using Node.js and Django",
         "Developed a Python SDK to enable secure cross-cloud function execution using IAM role-based access across AWS, GCP, and Azure.",
-        "Led backend development for a CI/CD pipeline to automate application builds, EV code signing, and client-facing website deployments, reducing release cycles from 2 days to 4 hours.",
-        "Designed a lightweight API gateway to route requests between 10+ microservices, handling 500+ RPM with <100ms latency."
+        "Led backend development for a CI/CD pipeline to automate application builds, EV code signing, and client-facing website deployments, reducing release cycles from 2 days to 4 hours."
       ]
     },
     {
@@ -40,8 +44,8 @@ export const resumeData = {
       duration: "Jan 2024 – Jun 2024",
       type: "Internship",
       achievements: [
-        "Built a Python tool to analyze and compare pricing across AWS, Azure, and GCP using their respective SDKs.",
-        "Implemented automated alerts for critical incidents using Python scripts and Kafka consumers, improving team response time by 30%."
+        "Developed a pre-build request validator to catch invalid data requests before runtime, preventing production errors.",
+        "Implemented automated alerts for critical incidents using Python scripts and Kafka, improving team response time by 30%."
       ]
     },
     {
@@ -52,7 +56,7 @@ export const resumeData = {
       achievements: [
         "Built scalable web scraping system using Django and BeautifulSoup, processing 10,000+ websites efficiently.",
         "Achieved 10x performance improvement through Celery task queues and async processing.",
-        "Integrated ChatGPT API for automated email generation, maintaining 95% response quality while reducing manual effort."
+        "Built AI-driven email automation, cutting response time to minutes while maintaining 95% response quality."
       ]
     }
   ],
