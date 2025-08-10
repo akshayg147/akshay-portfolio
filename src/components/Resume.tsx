@@ -11,7 +11,7 @@ export const ResumeSection = () => (
           <p className="text-terminal-cyan">Preview and download my latest resume</p>
           <div className="flex flex-wrap gap-4 mt-4">
             <a
-              href="https://drive.google.com/file/d/1KcAnEhq9gdyxg-hACbYE5SlYyo6oF4uW/view"
+              href="https://drive.google.com/file/d/1k9R9A_eAjQMAPIPgANe49QQZutV_Fyn4/view"
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center gap-2 text-terminal-blue hover:text-terminal-cyan transition-colors"
@@ -19,7 +19,7 @@ export const ResumeSection = () => (
               <span>📄</span> Preview Resume
             </a>
             <a
-              href="https://drive.google.com/uc?export=download&id=1KcAnEhq9gdyxg-hACbYE5SlYyo6oF4uW"
+              href="https://drive.google.com/uc?export=download&id=1k9R9A_eAjQMAPIPgANe49QQZutV_Fyn4"
               download
               className="flex items-center gap-2 bg-terminal-green text-white px-4 py-2 rounded hover:bg-terminal-cyan transition-colors"
             >

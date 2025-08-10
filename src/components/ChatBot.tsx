@@ -58,7 +58,7 @@ const getResumeAnswer = (question: string): string => {
   
   // General questions
   if (lowerQuestion.includes("tell me about") || lowerQuestion.includes("who are you")) {
-    return `I'm ${resumeData.personal.name}, a passionate Software Engineer. I specialize in building scalable cloud solutions, microservices architecture, and have extensive experience with AWS, Azure, and GCP. Currently working at Sprinklr, I focus on creating efficient, high-performance systems that solve real-world problems.`;
+    return `I'm ${resumeData.personal.name}, a passionate Software Engineer. I specialize in building scalable software and cloud native solutions, microservices architecture, and have extensive experience with AWS, Azure, and GCP. Currently working at Sprinklr, I focus on creating efficient, high-performance systems that solve real-world problems.`;
   }
   
   // Default response

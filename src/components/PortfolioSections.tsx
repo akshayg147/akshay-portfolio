@@ -11,8 +11,8 @@ export const AboutSection = () => (
         <h2 className="text-xl text-terminal-green font-bold"># {resumeData.personal.name}</h2>
         <p className="text-terminal-cyan">Software Engineer</p>
         <p className="text-muted-foreground">
-          Passionate software engineer with expertise in cloud technologies, microservices architecture, 
-          and full-stack development. Currently working at Sprinklr, building scalable cloud solutions 
+          Passionate software engineer with expertise in software development and cloud technologies, microservices architecture, 
+          and full-stack development. Currently working at Sprinklr, building scalable software and cloud native solutions 
           across AWS, Azure, and GCP.
         </p>
         <div className="flex flex-wrap gap-4 mt-4">
