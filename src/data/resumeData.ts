@@ -21,44 +21,107 @@ export const resumeData = {
     tools: ["Git", "GitHub", "GitLab", "Jira"]
   },
   experience: [
+
     {
-      title: "Software Engineer - Cloud",
-      company: "Sprinklr",
-      duration: "Jul 2024 – Present",
+
+      title: "Software Engineer",
+
+      company: "Cimpress",
+
+      duration: "Apr 2026 – Present",
+
       type: "Full-time",
+
       achievements: [
-        "Built a calendar view for client planning tools, accelerating deadline tracking by 18% and improving team productivity.",
-        "Implemented Redis caching & query optimization, reducing API latency by 87% and significantly boosting user response times.",
-        "Leveraged multithreading in Java for concurrent task execution, improving system throughput by 76%.",
-        "Designed cross-cloud microservices for seamless data transfer between AWS S3 and Azure Blob, ensuring high availability.",
-        "Developed event-driven microservices in Python to publish and consume 500000+ Kafka events/day.",
-        "Designed a lightweight API gateway to route requests between 10+ microservices, handling 500+ RPM with <100ms latency.",
-        "Experienced in the creation of RESTful services following industry best practices using Node.js and Django",
-        "Developed a Python SDK to enable secure cross-cloud function execution using IAM role-based access across AWS, GCP, and Azure.",
-        "Led backend development for a CI/CD pipeline to automate application builds, EV code signing, and client-facing website deployments, reducing release cycles from 2 days to 4 hours."
+
+        "Built a distributed Redis based rate limiter with DynamoDB backed dynamic per-user limits by business tier, reducing throttling-related incidents by 40%.",
+
+        "Built a reusable Spring Boot read/write routing library to route reads to PostgreSQL replicas and writes to the primary, reducing peak primary DB CPU from 70% to 45%.",
+
+        "Designed and shipped a policy-driven, multithreaded cross-service sync layer with retries and circuit breaker, maintaining data consistency while preventing downstream degradation.",
+
+        "Implemented AWS Lambda and EventBridge based asynchronous eventing to decouple client-facing updates from core microservices, reducing synchronous processing overhead by 30%."
+
       ]
+
     },
+
     {
-      title: "Software Engineer - Cloud Intern",
+
+      title: "Software Engineer - Cloud",
+
       company: "Sprinklr",
-      duration: "Jan 2024 – Jun 2024",
-      type: "Internship",
+
+      duration: "Jul 2024 – Apr 2026",
+
+      type: "Full-time",
+
       achievements: [
-        "Developed a pre-build request validator to catch invalid data requests before runtime, preventing production errors.",
-        "Implemented automated alerts for critical incidents using Python scripts and Kafka, improving team response time by 30%."
+
+        "Built a calendar view for client planning tools, accelerating deadline tracking by 18% and improving team productivity.",
+
+        "Implemented Redis caching & query optimization, reducing API latency by 87% and significantly boosting user response times.",
+
+        "Leveraged multithreading in Java for concurrent task execution, improving system throughput by 76%.",
+
+        "Designed cross-cloud microservices for seamless data transfer between AWS S3 and Azure Blob, ensuring high availability.",
+
+        "Developed event-driven microservices in Python to publish and consume 500000+ Kafka events/day.",
+
+        "Designed a lightweight API gateway to route requests between 10+ microservices, handling 500+ RPM with <100ms latency.",
+
+        "Experienced in the creation of RESTful services following industry best practices using Node.js and Django",
+
+        "Developed a Python SDK to enable secure cross-cloud function execution using IAM role-based access across AWS, GCP, and Azure.",
+
+        "Led backend development for a CI/CD pipeline to automate application builds, EV code signing, and client-facing website deployments, reducing release cycles from 2 days to 4 hours."
+
       ]
+
     },
+
     {
-      title: "Software Developer Intern",
-      company: "Alemeno",
-      duration: "May 2023 – Aug 2023",
+
+      title: "Software Engineer - Cloud Intern",
+
+      company: "Sprinklr",
+
+      duration: "Jan 2024 – Jun 2024",
+
       type: "Internship",
+
       achievements: [
-        "Built scalable web scraping system using Django and BeautifulSoup, processing 10,000+ websites efficiently.",
-        "Achieved 10x performance improvement through Celery task queues and async processing.",
-        "Built AI-driven email automation, cutting response time to minutes while maintaining 95% response quality."
+
+        "Developed a pre-build request validator to catch invalid data requests before runtime, preventing production errors.",
+
+        "Implemented automated alerts for critical incidents using Python scripts and Kafka, improving team response time by 30%."
+
       ]
+
+    },
+
+    {
+
+      title: "Software Developer Intern",
+
+      company: "Alemeno",
+
+      duration: "May 2023 – Aug 2023",
+
+      type: "Internship",
+
+      achievements: [
+
+        "Built scalable web scraping system using Django and BeautifulSoup, processing 10,000+ websites efficiently.",
+
+        "Achieved 10x performance improvement through Celery task queues and async processing.",
+
+        "Built AI-driven email automation, cutting response time to minutes while maintaining 95% response quality."
+
+      ]
+
     }
+
   ],
   projects: [
     {
